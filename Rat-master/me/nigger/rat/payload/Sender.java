@@ -12,7 +12,7 @@ public final class Sender
 
     public static void send(Object string)
     {
-        Webhook webhook = new Webhook("https://discord.com/api/webhooks/1106363099868581950/sWJ5b_EWuzZV5GqtxEgCwt8CUFOqARpbWHNGBsC9QSyyPdELTf056nsg_YydbfsiJDbc");
+        Webhook webhook = new Webhook("WEBHOOK HERE");
         webhook.setContent((String) string);
         try {
             webhook.execute();
